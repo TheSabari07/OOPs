@@ -2,9 +2,12 @@
 using namespace std;
 
 class Student {
-public:
+private : 
     string name;
-
+public:
+   void setname(string n) {
+        name = n;
+    }
     void displayName() {
         cout << "Name: " << name << endl;
     }
@@ -12,6 +15,6 @@ public:
 
 int main() {
     Student s1;
-    s1.name = "Sabari";      
-    s1.displayName();       
+    s1.setname("Sabari");
+    s1.displayName();
 }
