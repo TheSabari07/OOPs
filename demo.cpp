@@ -7,7 +7,7 @@ class Car {
         int speed;
 
         void show(){
-            cout << brand << "is driving at " << speed << "km/h" << endl;
+            cout << brand << "is driving at" << speed << "km/h" << endl;
     }
 };
 
